@@ -1,0 +1,8 @@
+A database is a logical grouping of data. It contains all the data that is associated with one application or a group of related applications.
+
+A table is a logical structure made up of rows, columns, and data items. Rows do not have a fixed order, and may need to be sorted before they are accessed. Columns are ordered according to the database admins specifications, and at the itersection of every column and row is a data item. 
+
+Indexes are an ordered set of pointers to rows of a table. They must be maintained in oder and are used to quickly retrive data values more quickly. Indexes can be used to quickly retrieve data that is associtate with a specific data value, for example you can create and index that pull up all the data associated with a specific name in the table.
+
+Keys are one or more columns that are identified in the creation of a table or index. Priamry keys are used to define the table or index they must have a value and they must be unique. A unique key is a key that is specific to one set of data, that is no other column can have that key associated with it. A foreign key is a key that is used to reference 
+another table.  
